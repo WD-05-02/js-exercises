@@ -1,0 +1,23 @@
+body {
+    padding: 50px;
+}
+
+.buttons_container {
+    gap: 20px;
+}
+
+.button {
+    background-color: #d4f2ff;
+    width: 8rem;
+    height: 4rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button:hover {
+        background-color: rgb(255, 205, 205);
+        border-radius: 20px;
+        transition: .35s ease;
+    }
